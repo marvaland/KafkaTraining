@@ -19,11 +19,6 @@ public class Local_stream
     public static void main( String[] args ) {
         Properties streamsConfig = new Properties();
 
-
-
-
-
-
         // The name must be unique on the Kafka cluster
         streamsConfig.put(StreamsConfig.APPLICATION_ID_CONFIG, "kafka-streams");
         streamsConfig.put(StreamsConfig.STATE_DIR_CONFIG, "MyFirstApp");
